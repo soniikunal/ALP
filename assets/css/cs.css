@@ -953,9 +953,7 @@ font: normal normal 600 38px/57px Poppins;
 		filter: grayscale(100%);
 	}
 
-	.slide-logo:hover {
-		filter: none;
-	}
+	
 }
 
 /* Logo-coursole */
@@ -986,12 +984,14 @@ font: normal normal 600 38px/57px Poppins;
 
 .slider-logo .slide {
 	height: 100px;
-	width: 250px;
-	filter: grayscale(100%);
+	width: 300px;
 }
 
 .slider-logo .slide:hover {
 	filter: none;
+}
+.slide img {
+	height: fit-content;
 }
 
 .stickyBtn {
