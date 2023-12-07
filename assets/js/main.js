@@ -1,17 +1,17 @@
 // Services We offer
 
-window.onload = function() {
-  let modalId = window.location.hash;
-  modalId = modalId.slice(1,modalId.length) 
-  if (modalId === 'FreeAgencyAudit') {
-    const modalElement = document.getElementById(modalId);
-    if (modalElement) {
-      const modal = document.getElementById("FreeAgencyAudit")
-      const bootstrapModal = new bootstrap.Modal(modal);
-      bootstrapModal.show();
-    }
-  }
-};
+// window.onload = function() {
+//   let modalId = window.location.hash;
+//   modalId = modalId.slice(1,modalId.length) 
+//   if (modalId === 'FreeAgencyAudit') {
+//     const modalElement = document.getElementById(modalId);
+//     if (modalElement) {
+//       const modal = document.getElementById("FreeAgencyAudit")
+//       const bootstrapModal = new bootstrap.Modal(modal);
+//       bootstrapModal.show();
+//     }
+//   }
+// };
 
 function ShowDiv(e) {
   Array.from(document.getElementById('contentContainer').childNodes).filter(e => e.classList).forEach(e => e.classList.add("d-none"))
@@ -44,41 +44,41 @@ function closeAllModal() {
   Array.from(document.getElementsByClassName("btn-close ms-auto position-absolute z-3 modalCrossButton")).forEach(e => e.click())
 }
 
-function SubmitCaseStudyForm(e) {
-  const CSfullName = document.getElementById("CSfullName")
-  const CScompanyEmail = document.getElementById("CScompanyEmail")
-  const CScompanyEmailHelpBlock = document.getElementById("CScompanyEmailHelpBlock")
-  const CSfullNameHelpBlock = document.getElementById("CSfullNameHelpBlock")
-  CSfullNameHelpBlock.classList.add("d-none")
-  CScompanyEmailHelpBlock.classList.add("d-none")
-  if (CSfullName.value.length < 3) {
-    CSfullNameHelpBlock.classList.remove("d-none")
-    event.preventDefault()
-  } else {
-    CSfullNameHelpBlock.classList.add("d-none")
-    event.preventDefault()
-  }
-  if (!CScompanyEmail.value) {
-    CScompanyEmailHelpBlock.classList.remove("d-none")
-    event.preventDefault()
-  } else if (! /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(CScompanyEmail.value)) {
-    CScompanyEmailHelpBlock.innerHTML = "* Please enter a correct email id!"
-    CScompanyEmailHelpBlock.classList.remove("d-none")
-    event.preventDefault()
-  } else {
-    CScompanyEmailHelpBlock.classList.add("d-none")
-    event.preventDefault()
-  }
-  closeAllModal()
-  showThankyouModal()
-  event.preventDefault()
-}
+// function SubmitCaseStudyForm(e) {
+//   const CSfullName = document.getElementById("CSfullName")
+//   const CScompanyEmail = document.getElementById("CScompanyEmail")
+//   const CScompanyEmailHelpBlock = document.getElementById("CScompanyEmailHelpBlock")
+//   const CSfullNameHelpBlock = document.getElementById("CSfullNameHelpBlock")
+//   CSfullNameHelpBlock.classList.add("d-none")
+//   CScompanyEmailHelpBlock.classList.add("d-none")
+//   if (CSfullName.value.length < 3) {
+//     CSfullNameHelpBlock.classList.remove("d-none")
+//     event.preventDefault()
+//   } else {
+//     CSfullNameHelpBlock.classList.add("d-none")
+//     event.preventDefault()
+//   }
+//   if (!CScompanyEmail.value) {
+//     CScompanyEmailHelpBlock.classList.remove("d-none")
+//     event.preventDefault()
+//   } else if (! /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(CScompanyEmail.value)) {
+//     CScompanyEmailHelpBlock.innerHTML = "* Please enter a correct email id!"
+//     CScompanyEmailHelpBlock.classList.remove("d-none")
+//     event.preventDefault()
+//   } else {
+//     CScompanyEmailHelpBlock.classList.add("d-none")
+//     event.preventDefault()
+//   }
+//   closeAllModal()
+//   showThankyouModal()
+//   event.preventDefault()
+// }
 
-function showThankyouModal() {
-  const modal = document.getElementById("CSSThankYou")
-  const bootstrapModal = new bootstrap.Modal(modal);
-  bootstrapModal.show();
-}
+// function showThankyouModal() {
+//   const modal = document.getElementById("CSSThankYou")
+//   const bootstrapModal = new bootstrap.Modal(modal);
+//   bootstrapModal.show();
+// }
 
 
 ///Counter Jquery

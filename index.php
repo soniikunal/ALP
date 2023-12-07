@@ -206,7 +206,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                 </div>
               </div>
               <div class="col-lg-4">
-                <img class="bossImage" src="<?= $baseurl ?>/assets/images/ServicesIMages/MicrosoftTeams1.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
+                <img class="bossImage" src="./assets/images/ServicesIMages/recordToPay.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
               </div>
             </div>
             <div class="row d-none" id="PolicyProcessingContent">
@@ -221,7 +221,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                 </ul>
               </div>
               <div class="col-lg-4">
-                <img class="bossImage" src="<?= $baseurl ?>/assets/images/ServicesIMages/MicrosoftTeams2.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
+                <img class="bossImage" src="./assets/images/ServicesIMages/ProcureToPay.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
               </div>
             </div>
             <div class="row d-none" id="ClaimManagementContent">
@@ -235,7 +235,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                 </ul>
               </div>
               <div class="col-lg-4">
-                <img class="bossImage" src="<?= $baseurl ?>/assets/images/ServicesIMages/MicrosoftTeams3.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
+                <img class="bossImage" src="./assets/images/ServicesIMages/orderToCash.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
               </div>
             </div>
             <div class="row d-none" id="AccountingSupportContent">
@@ -251,7 +251,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                 </ul>
               </div>
               <div class="col-lg-4">
-                <img class="bossImage" src="<?= $baseurl ?>/assets/images/ServicesIMages/MicrosoftTeams4.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
+                <img class="bossImage" src="./assets/images/ServicesIMages/PremiumReciept.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
               </div>
             </div>
             <div class="row d-none" id="AccountingSupport1Content">
@@ -264,7 +264,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                 </ul>
               </div>
               <div class="col-lg-4">
-                <img class="bossImage" src="<?= $baseurl ?>/assets/images/ServicesIMages/MicrosoftTeams4.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
+                <img class="bossImage" src="./assets/images/ServicesIMages/PayrollPreparation.png" alt="FBSPL, an ITES and BPM Company Offering Complete Insurance Operations and Consultation Services" />
               </div>
             </div>
           </div>
@@ -449,53 +449,44 @@ $baseurl = "https://www2023.fusionfirst.com";
     </div>
   </section>
   <!-- Software Capabilities -->
-  <section class="container text-center">
+  <section class="container text-center py-3">
     <h1 style="font-weight: 600;" class="lh-sm py-4">
       Software Capabilities </h1>
-    <div class="mt-2 justify-content-between d-none d-lg-flex p-4">
-      <div>
-        <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-      </div>
-      <div>
-        <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-      </div>
-      <div>
-        <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-      </div>
-      <div>
-        <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-      </div>
-      <div>
-        <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-      </div>
+    <div class=" justify-content-space-around d-none d-lg-flex px-4">
+      <!-- <div> -->
+        <img class="img1" src="./assets/images/softwarecapibilities/billCom.png" alt="FBSPL" width="100px" />
+      <!-- </div> -->
+      <!-- <div> -->
+        <img class="img1" src="./assets/images/softwarecapibilities/netsuid.png" alt="FBSPL" width="100px" />
+      <!-- </div> -->
+      <!-- <div> -->
+        <img class="img1" src="./assets/images/softwarecapibilities/quickBooks.png" alt="FBSPL" width="100px" />
+      <!-- </div> -->
+      <!-- <div> -->
+        <img class="img1" src="./assets/images/softwarecapibilities/xero1.png" alt="FBSPL" width="100px" />
+      <!-- </div> -->
+      <!-- <div> -->
+        <img class="img1" src="./assets/images/softwarecapibilities/applied.png" alt="FBSPL" width="100px" />
+      <!-- </div> -->
     </div>
-    <div class="row mt-2 d-flex justify-content-center d-lg-none">
-      <div class="col-6 d-flex row mt-1 p-3">
-        <div class="col-lg-6 col-sm-12 text-center">
-          <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-        </div>
-      </div>
-      <div class="col-6 d-flex row mt-1 p-3">
-        <div class="col-lg-6 col-sm-12 text-center">
-          <img class="img1" src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" width="100px" />
-        </div>
-
-      </div>
+    <div class="mt-2 d-flex justify-content-center d-lg-none">
+      <img class="img-fluid" src="./assets/images/softwarecapibilities/billCom.png" alt="FBSPL" width="170px" />
+      <img class="img-fluid" src="./assets/images/softwarecapibilities/netsuid.png" alt="FBSPL" width="170px" />
     </div>
   </section>
   <!-- Software Capabilities -->
   <!-- Find Out How We Can Help Your Business Now -->
   <div class="excellence_bg py-5">
-    <div class="excellence_container py-5 p-auto mr-auto">
-      <h2 class="heading_head excellence_header">
+    <div class="excellence_container py-4">
+      <h2 class="heading_head excellence_header px-1  ">
         Find Out How We Can Help Your Business Now
       </h2>
-      <button id="submitfooter" class="orangeBtn px-5 py-2 mt-2"><i class="fa fa-phone"></i> &nbsp; Book Call</button>
+      <button class="orangeBtn fw-normal px-5 py-2" data-bs-toggle="modal" data-bs-target="#FreeAgencyAudit"><i class="fa fa-phone"></i> &nbsp; Book Call</button>
     </div>
   </div>
   <!-- Find Out How We Can Help Your Business Now -->
 
-  <section class="pt-3" id="ClientTestimonial">
+  <section class="py-5" id="ClientTestimonial">
     <div class="container-fluid">
       <div class="container text-center">
         <h1 style="font-weight: 600;" class="lh-sm">
@@ -506,12 +497,12 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="">
             <div class="centered position-relative">
               <div class="Optimization_img1">
-                <img src="" />
+                <img src="./assets//images/quotes.png" />
               </div>
               <p class="bannerPara testimonial-content">
                 Everyone at Fusion is such a pleasure to work with. They are extremely professional and deliver the candidates you are searching for. I highly recommend working with Fusion for all your sourcing needs!
               </p>
-              <div style="top: 195px;" class="position-absolute">
+              <div style="top: 230px;" class="position-absolute">
                 <span class="testimonial-name">STEPH</span><br><span class="testimonial-designation">VP of Business Development</span>
               </div>
             </div>
@@ -519,12 +510,12 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="">
             <div class="centered position-relative">
               <div class="Optimization_img1">
-                <img src="" />
+                <img src="./assets//images/quotes.png" />
               </div>
               <p class="bannerPara testimonial-content">
                 Every task I asked the team to do was executed well. Team is easy to work with and eager to please. I would HIGHLY recommend!
               </p>
-              <div style="top: 195px;" class="position-absolute">
+              <div style="top: 230px;" class="position-absolute">
                 <span class="testimonial-name">Tracey Novick</span><br><span class="testimonial-designation">Owner</span>
               </div>
             </div>
@@ -532,12 +523,12 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="">
             <div class="centered position-relative">
               <div class="Optimization_img1">
-                <img src="" />
+                <img src="./assets//images/quotes.png" />
               </div>
               <p class="bannerPara testimonial-content">
                 I set the bar high while I took the complimentary trial offered by Fusion. The outcome was more than expected and the quality has been maintained till date as expected. If you need help with Pre-Sales activities like Lead Generation and RPO services.
               </p>
-              <div style="top: 195px;" class="position-absolute">
+              <div style="top: 230px;" class="position-absolute">
                 <span class="testimonial-name">MIKE JONES</span><br><span class="testimonial-designation">Director</span>
               </div>
             </div>
@@ -545,12 +536,12 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="">
             <div class="centered position-relative">
               <div class="Optimization_img1">
-                <img src="" />
+                <img src="./assets//images/quotes.png" />
               </div>
               <p class="bannerPara testimonial-content">
                 I set the bar high while I took the complimentary trial offered by Fusion. The outcome was more than expected and the quality has been maintained till date as expected. If you need help with Pre-Sales activities like Lead Generation and RPO services.
               </p>
-              <div style="top: 195px;" class="position-absolute">
+              <div style="top: 230px;" class="position-absolute">
                 <span class="testimonial-name">MIKE JONES</span><br><span class="testimonial-designation">Director</span>
               </div>
             </div>
@@ -571,8 +562,8 @@ $baseurl = "https://www2023.fusionfirst.com";
         <div class="slider1 py-5">
           <div class="">
             <div class="centered1">
-              <div class="Optimization_img1">
-                <img src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" />
+              <div class="Optimization_img1 mb-4">
+                <img src="./assets/images/Group 6.png" />
               </div>
               <h2 class="Optimization_sub">
                 Keystroke Level Checklist
@@ -581,8 +572,8 @@ $baseurl = "https://www2023.fusionfirst.com";
           </div>
           <div class="">
             <div class="centered1">
-              <div class="Optimization_img1">
-                <img src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" />
+              <div class="Optimization_img1 mb-4">
+                <img src="./assets/images/Group 7.png" />
               </div>
               <h2 class="Optimization_sub">
                 Assistance with Audits
@@ -591,8 +582,8 @@ $baseurl = "https://www2023.fusionfirst.com";
           </div>
           <div class="">
             <div class="centered1">
-              <div class="Optimization_img1">
-                <img src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" />
+              <div class="Optimization_img1 mb-4">
+                <img src="./assets/images/Group 8.png" />
               </div>
               <h2 class="Optimization_sub">
                 Automation of Recurring Tasks
@@ -618,19 +609,37 @@ $baseurl = "https://www2023.fusionfirst.com";
               offering Workforce, Consulting, and Technology Solutions to fuel business growth. We help organizations
               streamline and optimize their processes to increase productivity. </p>
             <br />
-            <div class="container">
+            <!-- TB vIEW -->
+            <div class="container d-none d-md-block">
               <div class="row justify-content-between">
-                <div class="col col-md-3">
-                  <img class="img1" src="./assets/images/about24.png" alt="FBSPL" width="50px" />
+                <div class="col-md-3 text-center">
+                  <img class="img50" src="./assets/images/about24.png" alt="FBSPL" width="50px" />
                   <p style="text-align: center;"><b>24*7 Services</b></p>
                 </div>
-                <div class="col-md-4">
-                  <img class="img1" src="./assets/images/aboutspeed.png" alt="FBSPL" width="50px" />
-                  <p style="text-align: center;"><b>Scalability & Flexibility</b></p>
+                <div class="col-md-4 text-center">
+                  <img class="img50" src="./assets/images/aboutspeed.png" alt="FBSPL" width="50px" />
+                  <p class="text-center mt-2"><b>Scalability & Flexibility</b></p>
                 </div>
-                <div class="col col-md-4">
-                  <img class="img1" src="./assets/images/aboutcube.png" alt="FBSPL" width="50px" />
+                <div class="col col-md-4 text-center">
+                  <img class="img50" src="./assets/images/aboutcube.png" alt="FBSPL" width="50px" />
                   <p style="text-align: center;"><b>Improved Efficiency</b></p>
+                </div>
+              </div>
+            </div>
+            <!-- mobileView -->
+            <div class="container d-md-none ">
+              <div class="">
+                <div class="d-flex my-3">
+                  <img class="img50" src="./assets/images/about24.png" alt="FBSPL" width="50px" />
+                  <p class="align-self-center mb-0 ms-3"><b>24*7 Services</b></p>
+                </div>
+                <div class="d-flex my-3">
+                  <img class="img50" src="./assets/images/aboutspeed.png" alt="FBSPL" width="50px" />
+                  <p  class="align-self-center mb-0 ms-3"><b>Scalability & Flexibility</b></p>
+                </div>
+                <div class="d-flex my-3">
+                  <img class="img50" src="./assets/images/aboutcube.png" alt="FBSPL" width="50px" />
+                  <p  class="align-self-center mb-0 ms-3"><b>Improved Efficiency</b></p>
                 </div>
               </div>
             </div>
@@ -654,8 +663,8 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div>
             <div class="card-body  ">
               <h1 class="pb-2 Gettext">Get In Touch </h1>
-              <div class="text-center">
-                <form id="BodyEmailfooter" method="POST">
+              <div class="text-center form-max">
+                <form id="BodyEmailfooter" method="POST" class="w-100">
                   <div class="row g-2">
                     <div class="col-lg-6 ">
                       <input type="text" class="form-control mb-2" placeholder="Name" aria-label="Name">
@@ -673,7 +682,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                     </div>
                   </div>
                   <textarea class="form-control" id="textArea" rows="4" placeholder="Message" aria-label="Message"></textarea>
-                  <button id="submitfooter" class="orangeBtn px-5 py-2 mt-2">Submit</button>
+                  <button id="submitfooter" class="orangeBtn fw-normal px-5 py-2 mt-2">Submit</button>
                 </form>
               </div>
             </div>
@@ -1034,7 +1043,7 @@ $baseurl = "https://www2023.fusionfirst.com";
   hbspt.forms.create({
     region: "na1",
     portalId: "23620181",
-    formId: "ba65d4ee-ee35-4b2e-90d7-d291c48b15e4",
+    formId: "be65f737-259c-4ec3-a7af-788005d61bab",
     target: "#formModal",
     onFormSubmit: function($form) {
       dataLayer.push({
@@ -1048,7 +1057,8 @@ $baseurl = "https://www2023.fusionfirst.com";
         website: $form[0].querySelector("input[name='website']").value,
         country: $form[0].querySelector("input[name='country']").value,
         state: $form[0].querySelector("input[name='state']").value,
-        formId: 'ba65d4ee-ee35-4b2e-90d7-d291c48b15e4' // Add any relevant data
+        message: $form[0].querySelector("input[name='message']").value,
+        formId: 'be65f737-259c-4ec3-a7af-788005d61bab' // Add any relevant data
       });
     },
     // onFormSubmit: function ($form) {
