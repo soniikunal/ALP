@@ -505,7 +505,7 @@ $baseurl = "https://www2023.fusionfirst.com";
         <img class="img1" src="./assets/images/softwarecapibilities/xero1.png" alt="FBSPL" width="100px" />
       <!-- </div> -->
       <!-- <div> -->
-        <img class="img1" src="./assets/images/softwarecapibilities/applied.png" alt="FBSPL" width="100px" />
+        <img class="img1" src="./assets/images/softwarecapibilities/applied.svg" alt="FBSPL" width="100px" />
       <!-- </div> -->
     </div>
     <div class="mt-2 d-flex justify-content-center d-lg-none">
