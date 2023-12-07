@@ -14,7 +14,7 @@ $baseurl = "https://www2023.fusionfirst.com";
   </title>
   <link rel="shortcut icon" href="https://www2023.fusionfirst.com/img/FBSPL/header/FBSPL_logo.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="<?= $baseurl ?>/assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <meta name="keywords" content="accounting & bookkeeping outsourcing" />
@@ -60,8 +60,8 @@ $baseurl = "https://www2023.fusionfirst.com";
   <nav class="navbar navbar-expand-lg bg-white fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" class="d-none d-lg-block" width="160px" />
-        <img src="<?= $baseurl ?>/assets/images/FBSPL Logo.png" alt="FBSPL" class="d-block d-lg-none" width="110px" />
+        <img src="./assets/images/FBSPL Logo.png" alt="FBSPL" class="d-none d-lg-block" width="160px" />
+        <img src="./assets/images/FBSPL Logo.png" alt="FBSPL" class="d-block d-lg-none" width="110px" />
       </a>
       <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="hideMenu(this)">
             <span class="navbar-toggler-icon"></span>
@@ -129,55 +129,55 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="slider-logo">
             <div class="slide-track">
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 01.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 01.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 02.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 02.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 03.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 03.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 04.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 04.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 05.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 05.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 06.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 06.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 07.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 07.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 08.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 08.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 09.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 09.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 10.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 10.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 11.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 11.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 12.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 12.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 13.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 13.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 14.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 14.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 15.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 15.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 16.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 16.svg" height="100" width="250" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 17.svg" height="450" width="600" alt="" />
+                <img src="./assets/images/Logo/Client Logo 17.svg" height="100" width="250" alt="" />
               </div>
             </div>
           </div>
@@ -696,7 +696,7 @@ $baseurl = "https://www2023.fusionfirst.com";
     </div>
   </section>
   <!-- Ready to Take Next Step -->
-  <section class=" py-4 Elevate">
+  <!-- <section class=" py-4 Elevate">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -704,48 +704,25 @@ $baseurl = "https://www2023.fusionfirst.com";
             <div class="card-body  ">
               <h1 class="pb-2 Gettext">Get In Touch </h1>
               <div class="text-center form-max">
-                <!-- <form id="BodyEmailfooter" method="POST" class="w-100">
-                  <div class="row g-2">
-                    <div class="col-lg-6 ">
-                      <input type="text" class="form-control mb-2" placeholder="Name" aria-label="Name">
-                    </div>
-                    <div class="col-lg-6">
-                      <input type="text" class="form-control mb-2" placeholder="Email Address" aria-label="Email Address">
-                    </div>
-                  </div>
-                  <div class="row g-2">
-                    <div class="col-lg-6">
-                      <input type="text" class="form-control mb-2" placeholder="Phone" aria-label="Phone Number">
-                    </div>
-                    <div class="col-lg-6">
-                      <input type="text" class="form-control mb-2" placeholder="Country" aria-label="Country">
-                    </div>
-                  </div>
-                  <textarea class="form-control" id="textArea" rows="4" placeholder="Message" aria-label="Message"></textarea>
-                  <button id="submitfooter" class="orangeBtn fw-normal px-5 py-2 mt-2">Submit</button>
-                </form> -->
+                
 
                 <form class="row g-3 needs-validation" novalidate id="BodyEmailfooter" method="POST" class="w-100">
                   <div class="row g-2">
                     <div class="col-lg-6 ">
-                      <!-- <label for="validationCustom01" class="form-label">First name</label> -->
                       <input type="text" class="form-control mb-2" id="validationCustom01" placeholder="Name"
                         aria-label="Name" required>
                     </div>
                     <div class="col-lg-6">
-                      <!-- <label for="validationCustom02" class="form-label">Last name</label> -->
                       <input type="Email" class="form-control mb-2" id="validationCustom02" placeholder="Email Address"
                         aria-label="Email Address" required>
                     </div>
                   </div>
                   <div class="row g-2">
                     <div class="col-lg-6 ">
-                      <!-- <label for="validationCustom01" class="form-label">First name</label> -->
                       <input type="Number" class="form-control" id="validationCustom03" placeholder="Phone"
                         aria-label="Phone Number" required>
                     </div>
                     <div class="col-lg-6">
-                      <!-- <label for="validationCustom02" class="form-label">Last name</label> -->
                       <input type="text" class="form-control mb-2" id="validationCustom04" placeholder="Country"
                         aria-label="Country" required>
                     </div>
@@ -764,7 +741,7 @@ $baseurl = "https://www2023.fusionfirst.com";
 
     </div>
 
-  </section>
+  </section> -->
 
   <!-- Ready to Take Next Step -->
   <!-- Flag Section -->
@@ -772,14 +749,14 @@ $baseurl = "https://www2023.fusionfirst.com";
     <div class="container">
       <div class="row d-none d-lg-flex justify-content-between">
         <div class="col-lg-4 d-flex align-items-center">
-          <img class="me-3" src="<?= $baseurl ?>/assets/images/US.svg" alt="usFlag" width="67px" height="39px" />
+          <img class="me-3" src="./assets/images/US.svg" alt="usFlag" width="67px" height="39px" />
           <span class="text-center py-4 text-secondary">
             <p class="m-0 text-start fw-semibold">+1-240 979 0061</p>
             <p class="m-0 text-start">East Brunswick, NJ 08816</p>
           </span>
         </div>
         <div class="col-lg-4 d-flex  align-items-center justify-content-center">
-          <img class="me-3" src="<?= $baseurl ?>/assets/images/UNITED KINGDOM.svg" alt="ukFlag" width="67px" height="39px" />
+          <img class="me-3" src="./assets/images/UNITED KINGDOM.svg" alt="ukFlag" width="67px" height="39px" />
           <span class="text-center py-4 text-secondary text-start pe-5">
             <p class="m-0 text-start fw-semibold">+44 203 290 8897</p>
             <p class="m-0 text-start">Kenton, HA3 0HQ</p>
@@ -787,7 +764,7 @@ $baseurl = "https://www2023.fusionfirst.com";
         </div>
         <div class="col-lg-4 d-flex  align-items-center justify-content-end">
 
-          <img class="me-3" src="<?= $baseurl ?>/assets/images/CANADA.svg" alt="canadaFlag" width="67px" height="39px" />
+          <img class="me-3" src="./assets/images/CANADA.svg" alt="canadaFlag" width="67px" height="39px" />
           <span class="text-center py-4 text-secondary">
             <p class="m-0 text-start fw-semibold">+1-240 979 0061</p>
             <p class="m-0 text-start">Orton Park Road, M1G 3H2</p>
@@ -796,19 +773,19 @@ $baseurl = "https://www2023.fusionfirst.com";
       </div>
       <div class="row d-flex d-lg-none pt-3">
         <div class="col-4 text-center">
-          <img class="pe-1" src="<?= $baseurl ?>/assets/images/US.svg" alt="usFlag" />
+          <img class="pe-1" src="./assets/images/US.svg" alt="usFlag" />
           <span class="text-center py-4 text-secondary mt-1">
             <p class="m-0">NJ 08816</p>
           </span>
         </div>
         <div class="col-4 text-center">
-          <img class="pe-1" src="<?= $baseurl ?>/assets/images/UNITED KINGDOM.svg" alt="ukFlag" />
+          <img class="pe-1" src="./assets/images/UNITED KINGDOM.svg" alt="ukFlag" />
           <span class="text-center py-4 text-secondary mt-1">
             <p class="m-0">HA3 0HQ</p>
           </span>
         </div>
         <div class="col-4 text-center">
-          <img class="pe-1" src="<?= $baseurl ?>/assets/images/CANADA.svg" alt="canadaFlag, " />
+          <img class="pe-1" src="./assets/images/CANADA.svg" alt="canadaFlag, " />
           <span class="text-center py-4 text-secondary mt-1">
             <p class="m-0">M1G 3H2</p>
           </span>
@@ -821,8 +798,8 @@ $baseurl = "https://www2023.fusionfirst.com";
       <div class="row d-none d-lg-flex">
         <div class="col-lg-6 text-center py-4 text-white d-flex justify-content-between">
           <div class="d-flex text-start">
-            <img class="me-4" src="<?= $baseurl ?>/assets/images/Isolation_Mode.svg" alt="isoCertificate" width="45px" />
-            <img src="<?= $baseurl ?>/assets/images/iso.svg" alt="isoCertificate, outsourcing for insurance companies" />
+            <img class="me-4" src="./assets/images/Isolation_Mode.svg" alt="isoCertificate" width="45px" />
+            <img src="./assets/images/iso.svg" alt="isoCertificate, outsourcing for insurance companies" />
             <div class="d-flex px-3 justify-content-center align-items-center me-4">
               <p class="mb-0 fs-14p">ISO Certified: 9001 (QMS) & 27001 (ISMS)</p>
             </div>
@@ -837,8 +814,8 @@ $baseurl = "https://www2023.fusionfirst.com";
       <div class="row d-flex d-lg-none py-3 mb-5">
         <div class="col-12">
           <div class="d-flex justify-content-center">
-            <img class="me-4" src="<?= $baseurl ?>/assets/images/Isolation_Mode.svg" alt="isoCertificate" />
-            <img src="<?= $baseurl ?>/assets/images/iso.svg" alt="isoCertificate, insurance Certificate Processing outsourcing" />
+            <img class="me-4" src="./assets/images/Isolation_Mode.svg" alt="isoCertificate" />
+            <img src="./assets/images/iso.svg" alt="isoCertificate, insurance Certificate Processing outsourcing" />
           </div>
           <div class="col-12 pt-2 text-center text-white">
             <small class="fs13">ISO Certified: 9001 (QMS) & 27001 (ISMS)</small>
@@ -883,7 +860,7 @@ $baseurl = "https://www2023.fusionfirst.com";
         <div class="modal-body p-0">
           <div class="d-flex justify-content-center row">
             <div class="col-lg-6 px-0 col-sm-12 d-none d-xl-block" style="background-color: #080d15;">
-              <img src="<?= $baseurl ?>/assets/images/aboutUsImag.png" class="float-end w-100" alt="fusionfirst" />
+              <img src="./assets/images/aboutUsImag.png" class="float-end w-100" alt="fusionfirst" />
             </div>
             <div id="form" class="col-lg-6 col-sm-12 px-5 py-5">
               <div class="mb-4">
@@ -905,7 +882,7 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="container">
             <div class="row">
               <div class="col-6 p-0 d-none d-lg-block">
-                <img src="<?= $baseurl ?>/assets/images/CaseStudySIgnModal.png" class="float-end w-100" />
+                <img src="./assets/images/CaseStudySIgnModal.png" class="float-end w-100" />
               </div>
               <div id="form" class="col-lg-6 col-sm-12 p-5 my-auto">
                 <div class="">
@@ -960,14 +937,14 @@ $baseurl = "https://www2023.fusionfirst.com";
               </div>
               <div class="col-lg-5 col-sm-12 d-none d-lg-block d-flex p-0">
                 <!-- <div class="my-auto"> -->
-                <img src="<?= $baseurl ?>/assets/images/CSThankYou.png" class="image-fluid float-end" alt="" />
+                <img src="./assets/images/CSThankYou.png" class="image-fluid float-end" alt="" />
                 <!-- </div> -->
               </div>
             </div>
           </div>
           <div class="row d-block d-lg-none position-relative overflow-hidden px-5">
             <div class="col-lg-6 col-sm-12 d-flex py-5 z-0">
-              <img src="<?= $baseurl ?>/assets/images/CSThankYou.png" class="backGroundImage" alt="" />
+              <img src="./assets/images/CSThankYou.png" class="backGroundImage" alt="" />
               <div class="my-auto position-relative">
                 <h1 class="text-orange fw-semibold">Thank you</h1>
                 <h1>for your interest!</h1>
@@ -990,7 +967,7 @@ $baseurl = "https://www2023.fusionfirst.com";
         <div class="modal-body p-0">
           <div class="d-flex flex-column">
             <div class="position-relative">
-              <img src="<?= $baseurl ?>/assets/images/caseStudy.png" class="img-fluid w-100" alt="fusionfirst" />
+              <img src="./assets/images/caseStudy.png" class="img-fluid w-100" alt="fusionfirst" />
               <div class="position-absolute fw-500 fs-1 csHeading d-none d-lg-block" style="top: 143px">
                 <h1>
                   Strategic Planning for an Indigenous Insurance Company
@@ -1106,7 +1083,7 @@ $baseurl = "https://www2023.fusionfirst.com";
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-<script src="<?= $baseurl ?>/assets/js/owl.carousel.min.js?d=<?= date("Y-m-d-H-i-s", time()) ?>"></script>
+<script src="./assets/js/owl.carousel.min.js?d=<?= date("Y-m-d-H-i-s", time()) ?>"></script>
 <script src="./assets/js/main.js?d=<?= date("Y-m-d-H-i-s", time()) ?>"></script>
 
 <!-- Hubspot Form -->
