@@ -129,16 +129,55 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="slider-logo">
             <div class="slide-track">
               <div class="slide">
-                <img src="./assets/images/Logo/TLG Logo-01.png" height="100" width="250" alt="" class="slide-image" />
+                <img src="./assets/images/Logo/Client Logo 01.svg" height="450" width="600" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/TLG Logo-02.png" height="100" width="250" alt="" class="slide-image" />
+                <img src="./assets/images/Logo/Client Logo 02.svg" height="450" width="600" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/TLG Logo-03.png" height="100" width="250" alt="" style="height: fit-content;" class="slide-image" />
+                <img src="./assets/images/Logo/Client Logo 03.svg" height="450" width="600" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/TLG Logo-04.png" height="100" width="250" alt="" class="slide-image" />
+                <img src="./assets/images/Logo/Client Logo 04.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 05.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 06.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 07.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 08.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 09.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 10.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 11.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 12.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 13.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 14.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 15.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 16.svg" height="450" width="600" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/images/Logo/Client Logo 17.svg" height="450" width="600" alt="" />
               </div>
             </div>
           </div>
@@ -281,7 +320,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             </h2>
             <div id="NewBusiness" class="accordion-collapse collapse show serviceSection" data-bs-parent="#accordionExample">
               <div class="accordion-body ps-5">
-                <ul>
+                <ul class="responsive-li">
                   <li class="help-you-list my-1">MIS</li>
                   <li class="help-you-list my-1">SOP's</li>
                   <li class="help-you-list my-1">Accruals</li>
@@ -307,7 +346,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             </h2>
             <div id="PolicyProcessing" class="accordion-collapse collapse serviceSection" data-bs-parent="#accordionExample">
               <div class="accordion-body ps-5">
-                <ul>
+                <ul class="responsive-li">
                   <li class="help-you-list my-1">Vendor Invoices Accounting</li>
                   <li class="help-you-list my-1">Petty Cash Accounting</li>
                   <li class="help-you-list my-1">Credit Card Accounting</li>
@@ -326,7 +365,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             </h2>
             <div id="ClaimManagement" class="accordion-collapse collapse serviceSection" data-bs-parent="#accordionExample">
               <div class="accordion-body ps-5">
-                <ul>
+                <ul class="responsive-li">
                   <li class="help-you-list my-1">Customer Invoices</li>
                   <li class="help-you-list my-1">Customer Statement Reconciliation</li>
                   <li class="help-you-list my-1">Receipts (Cash/Bank)</li>
@@ -344,7 +383,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             </h2>
             <div id="AccountingSupport" class="accordion-collapse collapse serviceSection" data-bs-parent="#accordionExample">
               <div class="accordion-body ps-5">
-                <ul>
+                <ul class="responsive-li">
                   <li class="help-you-list my-1">Finding statements in carriers</li>
                   <li class="help-you-list my-1">Deposits addition in software</li>
                   <li class="help-you-list my-1">Recording Commissions received from Carriers</li>
@@ -364,7 +403,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             </h2>
             <div id="AccountingSupport0" class="accordion-collapse collapse serviceSection" data-bs-parent="#accordionExample">
               <div class="accordion-body ps-5">
-                <ul>
+                <ul class="responsive-li">
                   <li class="help-you-list my-1">Preparing payroll for the client based on hours worked and hourly/daily rate</li>
                   <li class="help-you-list my-1">Sharing with the client in the client’s preferred format</li>
                   <li class="help-you-list my-1">Processing of payroll through third party payroll management (ADP or any other which the client prefers), or</li>
@@ -384,31 +423,31 @@ $baseurl = "https://www2023.fusionfirst.com";
         <div class="text-center">
           <strong class="fw-semibold display-3 d-flex justify-content-center">
             <div class="counting" data-count="17">0</div>
-            +
+            <div class="counting">+</div>
           </strong>
-          <p class="" style="font-size:20px;">Years in Business</p>
+          <p class="my-4" style="font: normal normal normal 20px/30px Poppins;">Years in Business</p>
         </div>
         <div class="text-center">
           <strong class="fw-semibold display-3 d-flex justify-content-center">
             <div class="counting" data-count="550">0</div>
-            +
+            <div class="counting">+</div>
           </strong>
-          <p class="" style="font-size:20px;">Clients Served</p>
+          <p class="my-4" style="font: normal normal normal 20px/30px Poppins;">Clients Served</p>
         </div>
 
         <div class="text-center">
           <strong class="fw-semibold display-3 d-flex justify-content-center">
             <div class="counting" data-count="04">0</div>
-            +
+            <div class="counting">+</div>
           </strong>
-          <p class="" style="font-size:20px;">Countries Served</p>
+          <p class="my-4" style="font: normal normal normal 20px/30px Poppins;">Countries Served</p>
         </div>
         <div class="text-center">
           <strong class="fw-semibold display-3 d-flex justify-content-center">
             <div class="counting" data-count="700">0</div>
-            +
+            <div class="counting">+</div>
           </strong>
-          <p class="" style="font-size:20px;">Total Employees</p>
+          <p class="my-4" style="font: normal normal normal 20px/30px Poppins;">Total Employees</p>
         </div>
       </div>
       <div class="row mt-2 d-flex justify-content-center d-lg-none">
@@ -416,32 +455,32 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="col-lg-6 col-sm-12 text-center">
             <strong class="fw-semibold display-3 d-flex justify-content-center">
               <div class="counting" data-count="17">0</div>
-              +
+              <div class="counting">+</div>
             </strong>
-            <p class="">Years in Business</p>
+            <p class="my-4">Years in Business</p>
           </div>
           <div class="col-lg-6 col-sm-12 text-center">
             <strong class="fw-semibold display-3 d-flex justify-content-center">
               <div class="counting" data-count="550">0</div>
-              +
+              <div class="counting">+</div>
             </strong>
-            <p class="">Clients Served</p>
+            <p class="my-4">Clients Served</p>
           </div>
         </div>
         <div class="col-6 d-flex row mt-2">
           <div class="col-lg-6 col-sm-12 text-center">
             <strong class="fw-semibold display-3 d-flex justify-content-center">
               <div class="counting" data-count="04">0</div>
-              +
+              <div class="counting">+</div>
             </strong>
-            <p class="">Countries Served</p>
+            <p class="my-4">Countries Served</p>
           </div>
           <div class="col-lg-6 col-sm-12 text-center">
             <strong class="fw-semibold display-3 d-flex justify-content-center">
               <div class="counting" data-count="700">0</div>
-              +
+              <div class="counting">+</div>
             </strong>
-            <p class="">Total Employees</p>
+            <p class="my-4">Total Employees</p>
           </div>
         </div>
       </div>
@@ -502,7 +541,7 @@ $baseurl = "https://www2023.fusionfirst.com";
               <p class="bannerPara testimonial-content">
                 Everyone at Fusion is such a pleasure to work with. They are extremely professional and deliver the candidates you are searching for. I highly recommend working with Fusion for all your sourcing needs!
               </p>
-              <div style="top: 230px;" class="position-absolute">
+              <div class="position-absolute absolute">
                 <span class="testimonial-name">STEPH</span><br><span class="testimonial-designation">VP of Business Development</span>
               </div>
             </div>
@@ -515,7 +554,7 @@ $baseurl = "https://www2023.fusionfirst.com";
               <p class="bannerPara testimonial-content">
                 Every task I asked the team to do was executed well. Team is easy to work with and eager to please. I would HIGHLY recommend!
               </p>
-              <div style="top: 230px;" class="position-absolute">
+              <div class="position-absolute absolute">
                 <span class="testimonial-name">Tracey Novick</span><br><span class="testimonial-designation">Owner</span>
               </div>
             </div>
@@ -528,7 +567,7 @@ $baseurl = "https://www2023.fusionfirst.com";
               <p class="bannerPara testimonial-content">
                 I set the bar high while I took the complimentary trial offered by Fusion. The outcome was more than expected and the quality has been maintained till date as expected. If you need help with Pre-Sales activities like Lead Generation and RPO services.
               </p>
-              <div style="top: 230px;" class="position-absolute">
+              <div class="position-absolute absolute">
                 <span class="testimonial-name">MIKE JONES</span><br><span class="testimonial-designation">Director</span>
               </div>
             </div>
@@ -541,7 +580,7 @@ $baseurl = "https://www2023.fusionfirst.com";
               <p class="bannerPara testimonial-content">
                 I set the bar high while I took the complimentary trial offered by Fusion. The outcome was more than expected and the quality has been maintained till date as expected. If you need help with Pre-Sales activities like Lead Generation and RPO services.
               </p>
-              <div style="top: 230px;" class="position-absolute">
+              <div class="position-absolute absolute">
                 <span class="testimonial-name">MIKE JONES</span><br><span class="testimonial-designation">Director</span>
               </div>
             </div>
@@ -598,7 +637,7 @@ $baseurl = "https://www2023.fusionfirst.com";
 
   <!-- About Us  -->
   <section id="aboutus" class="container my-lg-5">
-    <div class="row" style="margin-top: 75px">
+    <div class="row" style="margin-top: 30px">
       <div class="col-sm-12 col-lg-7 d-flex align-items-center about-us-container position-relative">
         <div class="mt-4">
           <div class='position-relative'>
@@ -613,16 +652,16 @@ $baseurl = "https://www2023.fusionfirst.com";
             <div class="container d-none d-md-block">
               <div class="row justify-content-between">
                 <div class="col-md-3 text-center">
-                  <img class="img50" src="./assets/images/about24.png" alt="FBSPL" width="50px" />
-                  <p style="text-align: center;"><b>24*7 Services</b></p>
+                  <img class="img50" src="./assets/images/about24.png" alt="about24" width="50px" />
+                  <p class="text-center mt-3"><b>24*7 Services</b></p>
                 </div>
                 <div class="col-md-4 text-center">
-                  <img class="img50" src="./assets/images/aboutspeed.png" alt="FBSPL" width="50px" />
-                  <p class="text-center mt-2"><b>Scalability & Flexibility</b></p>
+                  <img class="img50" src="./assets/images/aboutcube.png" alt="aboutspeed" width="50px" />
+                  <p class="text-center mt-3"><b>Scalability & Flexibility</b></p>
                 </div>
                 <div class="col col-md-4 text-center">
-                  <img class="img50" src="./assets/images/aboutcube.png" alt="FBSPL" width="50px" />
-                  <p style="text-align: center;"><b>Improved Efficiency</b></p>
+                  <img class="img50" src="./assets/images/aboutspeed.png" alt="aboutcube" width="56px" />
+                  <p class="text-center mt-3"><b>Improved Efficiency</b></p>
                 </div>
               </div>
             </div>
@@ -630,16 +669,16 @@ $baseurl = "https://www2023.fusionfirst.com";
             <div class="container d-md-none ">
               <div class="">
                 <div class="d-flex my-3">
-                  <img class="img50" src="./assets/images/about24.png" alt="FBSPL" width="50px" />
+                  <img class="img50" src="./assets/images/about24.png" alt="about24" width="50px" />
                   <p class="align-self-center mb-0 ms-3"><b>24*7 Services</b></p>
                 </div>
                 <div class="d-flex my-3">
-                  <img class="img50" src="./assets/images/aboutspeed.png" alt="FBSPL" width="50px" />
-                  <p  class="align-self-center mb-0 ms-3"><b>Scalability & Flexibility</b></p>
+                  <img class="img50" src="./assets/images/aboutcube.png" alt="aboutspeed" width="50px" />
+                  <p class="align-self-center mb-0 ms-3"><b>Scalability & Flexibility</b></p>
                 </div>
                 <div class="d-flex my-3">
-                  <img class="img50" src="./assets/images/aboutcube.png" alt="FBSPL" width="50px" />
-                  <p  class="align-self-center mb-0 ms-3"><b>Improved Efficiency</b></p>
+                  <img class="img50" src="./assets/images/aboutspeed.png" alt="aboutcube" width="50px" />
+                  <p class="align-self-center mb-0 ms-3"><b>Improved Efficiency</b></p>
                 </div>
               </div>
             </div>
@@ -650,7 +689,8 @@ $baseurl = "https://www2023.fusionfirst.com";
       </div>
       <div class="col-lg-5 d-none d-lg-block">
         <div class="float-end">
-          <img src="./assets/images/aboutUsImag.png" alt="A Team of Experienced Insurance Professionals" class="img-fluid" />
+          <img src="./assets/images/aboutUsImag.png" alt="A Team of Experienced Insurance Professionals"
+            class="img-fluid" />
         </div>
       </div>
     </div>
@@ -664,7 +704,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             <div class="card-body  ">
               <h1 class="pb-2 Gettext">Get In Touch </h1>
               <div class="text-center form-max">
-                <form id="BodyEmailfooter" method="POST" class="w-100">
+                <!-- <form id="BodyEmailfooter" method="POST" class="w-100">
                   <div class="row g-2">
                     <div class="col-lg-6 ">
                       <input type="text" class="form-control mb-2" placeholder="Name" aria-label="Name">
@@ -683,6 +723,38 @@ $baseurl = "https://www2023.fusionfirst.com";
                   </div>
                   <textarea class="form-control" id="textArea" rows="4" placeholder="Message" aria-label="Message"></textarea>
                   <button id="submitfooter" class="orangeBtn fw-normal px-5 py-2 mt-2">Submit</button>
+                </form> -->
+
+                <form class="row g-3 needs-validation" novalidate id="BodyEmailfooter" method="POST" class="w-100">
+                  <div class="row g-2">
+                    <div class="col-lg-6 ">
+                      <!-- <label for="validationCustom01" class="form-label">First name</label> -->
+                      <input type="text" class="form-control mb-2" id="validationCustom01" placeholder="Name"
+                        aria-label="Name" required>
+                    </div>
+                    <div class="col-lg-6">
+                      <!-- <label for="validationCustom02" class="form-label">Last name</label> -->
+                      <input type="Email" class="form-control mb-2" id="validationCustom02" placeholder="Email Address"
+                        aria-label="Email Address" required>
+                    </div>
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-lg-6 ">
+                      <!-- <label for="validationCustom01" class="form-label">First name</label> -->
+                      <input type="Number" class="form-control" id="validationCustom03" placeholder="Phone"
+                        aria-label="Phone Number" required>
+                    </div>
+                    <div class="col-lg-6">
+                      <!-- <label for="validationCustom02" class="form-label">Last name</label> -->
+                      <input type="text" class="form-control mb-2" id="validationCustom04" placeholder="Country"
+                        aria-label="Country" required>
+                    </div>
+                    <textarea class="form-control mb-2" id="validationCustom05" rows="4" placeholder="Message"
+                      aria-label="Message" required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -1132,5 +1204,26 @@ $baseurl = "https://www2023.fusionfirst.com";
   document.querySelector(".slick-list");
   $carousel.slick(settings);
 </script>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict'
 
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+</script>
 </html>

@@ -57,6 +57,7 @@ body {
 	border-color: #E38B29 !important;
 	font-weight: 500 !important;
 	color: #FFFFFF !important;
+	font: normal normal 600 20px/35px Poppins;
 }
 
 .nav-link.active {
@@ -65,7 +66,8 @@ body {
 
 .bannerPara {
 	color: #8A8A8A;
-	line-height: 172.5%
+	line-height: 172.5%;
+	font: normal normal normal 18px/30px Poppins;
 }
 
 .maxWidth {
@@ -305,6 +307,16 @@ li::marker {
 	border: 1px solid #958B8B;
 	color: #A1A1A1;
 	margin-bottom: 15px;
+	font: normal normal normal 20px/35px Poppins;
+}
+
+.counting{
+	font: normal normal 600 48px/30px Poppins;
+}
+
+.responsive-li{
+	left: -45px;
+    position: relative;
 }
 
 .workflowBtn:hover {
@@ -331,7 +343,7 @@ ul {
 
   .testimonial-content{
 	line-height: 22px;
-    font-size: 14px;
+    font: normal normal normal 16px/25px Poppins;
   }
 /* .workflowBtn :hover, .workflowBtn:active :not(.arrow) {
 	background-color: #E38B29!important;
@@ -577,22 +589,8 @@ body {
 	min-height: 200px;
 	transition: transform 0.3s ease;
   }
-  .centered1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	background: #ffffff 0% 0% no-repeat padding-box;
-	box-shadow: 0px 3px 12px #00000014;
-	border: 1px solid #efefef;
-	border-radius: 5px;
-	opacity: 1;
-	padding: 15px;
-	margin-bottom: 17px;
-	height: 80%;
-	min-height: 200px;
-	transition: transform 0.3s ease;
+  .absolute{
+	top: 295px;
   }
   .centered {
 	display: flex;
@@ -607,7 +605,7 @@ body {
 	padding: 15px;
 	margin-bottom: 17px;
 	height: 80%;
-	min-height: 300px;
+	min-height: 365px;
 	transition: transform 0.3s ease;
   }
   .testimonial-name{
@@ -631,9 +629,9 @@ body {
   .Optimization_sub {
 	font-size: 25px;
 	  font-weight: 600;
-	  font: normal normal 600 20px/27px Poppins;
+	  font: normal normal medium 22px/33px Poppins;
 	  letter-spacing: 0px;
-	  color: #343434;
+	  color: #000000;
 	  opacity: 1;
   }
   .Optimization_subcontent {
@@ -748,6 +746,12 @@ body {
 	.centered {
 	  padding: 24px;
 	}
+	.absolute{
+		top: 290px;
+	  }
+	  .centered {
+		min-height: 360px;
+	  }
   }
   @media screen and (min-width: 992px) {
 	.second {
@@ -794,7 +798,7 @@ body {
 	}
 	.Optimization_sub {
 	  letter-spacing: 0px;
-	  color: #343434;
+	  color: #000000;
 	  padding-bottom: 5px;
 	  font-size: 22px;
 	}
@@ -979,6 +983,8 @@ font: normal normal 600 38px/57px Poppins;
 .slider-logo .slide {
 	height: 100px;
 	width: 300px;
+	align-items: center;
+    display: flex;
 }
 
 .slider-logo .slide:hover {
