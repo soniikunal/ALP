@@ -573,19 +573,6 @@ $baseurl = "https://www2023.fusionfirst.com";
               </div>
             </div>
           </div>
-          <div class="">
-            <div class="centered position-relative">
-              <div class="Optimization_img1">
-                <img src="./assets//images/quotes.png" />
-              </div>
-              <p class="bannerPara testimonial-content">
-                I set the bar high while I took the complimentary trial offered by Fusion. The outcome was more than expected and the quality has been maintained till date as expected. If you need help with Pre-Sales activities like Lead Generation and RPO services.
-              </p>
-              <div class="position-absolute absolute">
-                <span class="testimonial-name">MIKE JONES</span><br><span class="testimonial-designation">Director</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
   </section>
@@ -662,7 +649,7 @@ $baseurl = "https://www2023.fusionfirst.com";
                 </div>
                 <div class="col col-md-4 text-center">
                   <img class="img50" src="./assets/images/aboutspeed.png" alt="aboutcube" width="56px" />
-                  <p class="text-center mt-3"><b>Improved Efficiency</b></p>
+                  <p class="text-center mt-4"><b>Improved Efficiency</b></p>
                 </div>
               </div>
             </div>
