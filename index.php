@@ -63,9 +63,9 @@ $baseurl = "https://www2023.fusionfirst.com";
         <img src="./assets/images/FBSPL Logo.png" alt="FBSPL" class="d-none d-lg-block" width="160px" />
         <img src="./assets/images/FBSPL Logo.png" alt="FBSPL" class="d-block d-lg-none" width="110px" />
       </a>
-      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="hideMenu(this)">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="hideMenu(this)">
             <span class="navbar-toggler-icon"></span>
-        </button>-->
+        </button>
       <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-md-3">
           <li class="nav-item">
@@ -121,7 +121,7 @@ $baseurl = "https://www2023.fusionfirst.com";
             <!-- <span class="fs-6"
               >Trusted by <span class="fs-5 fw-bold">550+ Clients</span></span
             > -->
-            <h1 style="font-weight: 600;" class="trusted-by-clients">Trusted by Clients Globally</h1>
+            <h1 style="font-weight: 600;" class="trusted-by-clients mb-4">Trusted by Clients Globally</h1>
 
           </div>
         </div>
@@ -129,55 +129,55 @@ $baseurl = "https://www2023.fusionfirst.com";
           <div class="slider-logo">
             <div class="slide-track">
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 01.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 01.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 02.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 02.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 03.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 03.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 04.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 04.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 05.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 05.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 06.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 06.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 07.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 07.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 08.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 08.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 09.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 09.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 10.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 010.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 11.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 011.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 12.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 012.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 13.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 013.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 14.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 014.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 15.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 015.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 16.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 016.svg" height="400" width="550" alt="" />
               </div>
               <div class="slide">
-                <img src="./assets/images/Logo/Client Logo 17.svg" height="100" width="250" alt="" />
+                <img class="px-5" src="./assets/images/Logo/Client Logo 017.svg" height="400" width="550" alt="" />
               </div>
             </div>
           </div>
@@ -505,7 +505,8 @@ $baseurl = "https://www2023.fusionfirst.com";
         <img class="img1" src="./assets/images/softwarecapibilities/xero1.png" alt="FBSPL" width="100px" />
       <!-- </div> -->
       <!-- <div> -->
-        <img class="img1" src="./assets/images/softwarecapibilities/applied.svg" alt="FBSPL" width="100px" />
+        <img class="" src="./assets/images/softwarecapibilities/applied.svg" alt="FBSPL"  />
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" zoomAndPan="magnify" viewBox="50 0 180 26.000001" height="70" preserveAspectRatio="xMidYMid meet" version="1.0"><<defs><clipPath id="55e44cc979"><path d="M 2.980469 0 L 221.78125 0 L 221.78125 35.027344 L 2.980469 35.027344 Z M 2.980469 0 " clip-rule="nonzero"/></clipPath><clipPath id="e73bd231b4"><path d="M 64.328125 6.046875 L 96 6.046875 L 96 28.667969 L 64.328125 28.667969 Z M 64.328125 6.046875 " clip-rule="nonzero"/></clipPath><clipPath id="93393a680b"><path d="M 162 14 L 172.328125 14 L 172.328125 24 L 162 24 Z M 162 14 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#55e44cc979)"><path fill="#ffffff" d="M 2.980469 0 L 221.898438 0 L 221.898438 35.027344 L 2.980469 35.027344 Z M 2.980469 0 " fill-opacity="1" fill-rule="nonzero"/><path fill="#ffffff" d="M 2.980469 0 L 221.898438 0 L 221.898438 35.027344 L 2.980469 35.027344 Z M 2.980469 0 " fill-opacity="1" fill-rule="nonzero"/></g><g clip-path="url(#e73bd231b4)"><path fill="#00b3e6" d="M 70.609375 16.285156 L 76.75 28.667969 L 64.464844 28.667969 Z M 84.097656 6.046875 L 75.6875 6.046875 L 86.910156 28.667969 L 95.316406 28.667969 Z M 84.097656 6.046875 " fill-opacity="1" fill-rule="nonzero"/></g><path fill="#3d3d40" d="M 136.933594 14.226562 L 138.453125 14.226562 L 138.453125 22.183594 L 143.589844 22.183594 L 143.589844 23.523438 L 136.933594 23.523438 Z M 136.933594 14.226562 " fill-opacity="1" fill-rule="nonzero"/><path fill="#3d3d40" d="M 146.789062 14.226562 L 148.3125 14.226562 L 148.3125 23.523438 L 146.789062 23.523438 Z M 146.789062 14.226562 " fill-opacity="1" fill-rule="nonzero"/><g clip-path="url(#93393a680b)"><path fill="#3d3d40" d="M 162.683594 14.222656 L 166.226562 14.222656 C 167.007812 14.210938 167.777344 14.285156 168.539062 14.449219 C 170.730469 14.972656 172.1875 16.371094 172.1875 18.726562 C 172.1875 21.082031 170.695312 22.605469 168.417969 23.226562 C 167.53125 23.445312 166.632812 23.546875 165.71875 23.523438 L 162.691406 23.523438 Z M 165.683594 22.183594 C 166.484375 22.199219 167.269531 22.109375 168.046875 21.914062 C 169.628906 21.46875 170.59375 20.445312 170.59375 18.726562 C 170.59375 17.003906 169.578125 16.128906 168.144531 15.761719 C 167.453125 15.609375 166.753906 15.542969 166.046875 15.566406 L 164.203125 15.566406 L 164.203125 22.183594 Z M 165.683594 22.183594 " fill-opacity="1" fill-rule="nonzero"/></g><path fill="#3d3d40" d="M 106.953125 19.542969 L 108.527344 16.285156 L 108.558594 16.285156 L 110.222656 19.546875 L 107.742188 19.546875 L 107.742188 20.886719 L 110.910156 20.886719 L 112.257812 23.523438 L 113.9375 23.523438 L 109.089844 14.183594 L 108.027344 14.183594 L 103.351562 23.523438 L 105.027344 23.523438 Z M 106.953125 19.542969 " fill-opacity="1" fill-rule="nonzero"/><path fill="#3d3d40" d="M 133.90625 17.203125 C 133.90625 19.007812 132.574219 19.882812 131.242188 20.148438 C 130.667969 20.253906 130.089844 20.300781 129.503906 20.292969 L 129.414062 20.292969 L 129.414062 18.953125 L 129.5625 18.953125 C 130.019531 18.96875 130.472656 18.933594 130.925781 18.851562 C 131.699219 18.667969 132.316406 18.191406 132.316406 17.246094 C 132.316406 16.328125 131.800781 15.890625 131.125 15.691406 C 130.695312 15.566406 130.191406 15.566406 129.578125 15.566406 L 128.414062 15.566406 L 128.414062 23.523438 L 126.894531 23.523438 L 126.894531 14.222656 L 129.691406 14.222656 C 130.3125 14.203125 130.929688 14.261719 131.539062 14.394531 C 132.789062 14.71875 133.90625 15.523438 133.90625 17.203125 " fill-opacity="1" fill-rule="nonzero"/><path fill="#3d3d40" d="M 123.867188 17.203125 C 123.867188 19.007812 122.535156 19.882812 121.199219 20.148438 C 120.628906 20.253906 120.050781 20.300781 119.464844 20.292969 L 119.375 20.292969 L 119.375 18.953125 L 119.523438 18.953125 C 119.980469 18.96875 120.433594 18.933594 120.886719 18.851562 C 121.660156 18.667969 122.277344 18.191406 122.277344 17.246094 C 122.277344 16.328125 121.761719 15.890625 121.085938 15.691406 C 120.65625 15.566406 120.152344 15.566406 119.539062 15.566406 L 118.375 15.566406 L 118.375 23.523438 L 116.855469 23.523438 L 116.855469 14.222656 L 119.652344 14.222656 C 120.273438 14.203125 120.890625 14.261719 121.5 14.394531 C 122.75 14.71875 123.867188 15.523438 123.867188 17.203125 " fill-opacity="1" fill-rule="nonzero"/><path fill="#3d3d40" d="M 153.863281 19.472656 L 153.863281 22.183594 L 159.167969 22.183594 L 159.167969 23.523438 L 152.339844 23.523438 L 152.339844 14.222656 L 159.082031 14.222656 L 159.082031 15.5625 L 153.863281 15.5625 Z M 154.859375 19.472656 L 158.558594 19.472656 L 158.558594 18.132812 L 154.859375 18.132812 Z M 154.859375 19.472656 " fill-opacity="1" fill-rule="nonzero"/></svg> -->
       <!-- </div> -->
     </div>
     <div class="mt-2 d-flex justify-content-center d-lg-none">

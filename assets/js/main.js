@@ -38,6 +38,7 @@ function hideMenu(e) {
 function SetColor(e) {
   Array.from(document.getElementsByClassName("nav-link")).forEach(e => e.classList.remove("active"))
   e.classList.add("active")
+  document.getElementsByClassName('navbar-toggler')[0].click()
 }
 
 function closeAllModal() {
