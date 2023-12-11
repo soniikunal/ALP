@@ -331,7 +331,7 @@ ul {
 	list-style: none;
   }
   .help-you-list::before {
-	content: "\2022";
+	content: "▶";
 	color: #E1E1E1;
 	font-weight: bold;
 	display: inline-block; 
@@ -342,6 +342,11 @@ ul {
   .testimonial-content{
 	line-height: 22px;
     font: normal normal normal 16px/25px Poppins;
+  }
+  .help-you-list:hover,
+  .help-you-list:hover::before {
+	cursor: default;
+	color: #E38B29 !important;
   }
 /* .workflowBtn :hover, .workflowBtn:active :not(.arrow) {
 	background-color: #E38B29!important;
