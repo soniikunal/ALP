@@ -327,18 +327,28 @@ li::marker {
 .help-you-list {
   color: #6c757d !important;
   font-size: 15px !important;
+  list-style: none; /* Remove default list styles */
+  position: relative;
+  padding-left: 1.5em;
 }
 
 ul {
   list-style: none;
 }
 .help-you-list::before {
-  content: "▶";
+  /* content: "▶";
   color: #e1e1e1;
   font-weight: bold;
   display: inline-block;
   width: 2em;
-  margin-left: -1em;
+  margin-left: -1em; */
+  content: "▶";
+  color: #e1e1e1;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .testimonial-content {
